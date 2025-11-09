@@ -2,7 +2,7 @@ from pages.auth_user_page import AuthUserPage
 from pages.base_page import BasePage
 from pages.main_page import MainPage
 from pages.recovery_password_page import PasswordRecoveryPage
-from pages.create_order_page import CreateOrderPage  # ← исправлено название
+from pages.create_order_page import CreateOrderPage 
 from pages.user_profile_page import UserProfilePage
 
 class UIWorkerWeb(MainPage, AuthUserPage, PasswordRecoveryPage, UserProfilePage, CreateOrderPage):
